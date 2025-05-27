@@ -7,16 +7,12 @@ The project demonstrates the use of **HTML**, **CSS (Tailwind CSS)**, and **Java
 
 ## 📸 Project Preview
 
-![Project Live Link](https://hvac-project-shohag.netlify.app/)
+[Project Live Link](https://hvac-project-shohag.netlify.app/)
 
-> *(You can replace the image link above with an actual screenshot of your project)*
-
----
 
 ## 🔗 Live Demo
 
 [Click here to view the live site](https://shohag989.github.io/AssignmeThreeByShohag/)  
-> *(Make sure GitHub Pages is enabled on your repository)*
 
 ---
 
