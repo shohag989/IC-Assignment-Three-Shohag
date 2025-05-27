@@ -1,24 +1,50 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.{html,js,jsx,ts,tsx}', // Adjust based on your file structure
-  ],
+  content: ['./src/**/*.{html,js,jsx,ts,tsx}'],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Poppins', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        heading: ['Poppins', 'sans-serif'], // Optional for headings
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1rem',
+        md: '1.5rem',
+        lg: '2rem',
+        xl: '2.5rem',
+        '2xl': '3rem',
       },
+      screens: {
+        sm: '576px',   // 36rem
+        md: '640px',   // 40rem
+        lg: '864px',   // 54rem
+        xl: '1120px',  // 70rem
+        '2xl': '1376px', // 86rem
+      },
+    },
+    extend: {
       colors: {
-        primary: '#1c3b2f',            // Dark green (headings, footer)
-        secondary: '#ffffff',          // Pure white (background, cards)
-        accent: '#4caf50',             // Bright green (buttons, highlights)
-        'accent-hover': '#388e3c',     // Darker green for hover effects
-        'text-main': '#1c1c1c',        // Main body text
-        'text-sub': '#4f4f4f',         // Subtext, descriptions
-        'bg-section': '#f4f4f4',       // Light gray background sections
-        'bg-card': '#ffffff',          // Card backgrounds
-        border: '#e0e0e0',             // Light gray border color
+        primary: '#004f2d',
+        secondary: '#007547',
+        accent: '#00A36C',
+        neutral: '#F5F5F5',
+        heading: '#1A1A1A',
+        paragraph: '#4A4A4A',
+      },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(to right, #004225, #006a3c)',
+        'puzzle-overlay': "url('./assets/Image/puzzleOverlay.png')",
+      },
+      fontFamily: {
+        heading: ['Poppins', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+      },
+      animation: {
+        fadeIn: 'fadeIn 1.5s ease-in forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
       },
     },
   },

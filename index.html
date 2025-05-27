@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link
             rel="shortcut icon"
-            href="https://i.ibb.co/bnCJws9/tailwind-css.png"
+            href="https://img.icons8.com/fluency/48/tailwind_css.png"
             type="png/x-icon">
 
         <!-- GoogleFont -->
@@ -20,7 +20,789 @@
 
         <!-- OutputCSS -->
         <link rel="stylesheet" href="output/output.css">
+
+        <!-- title -->
         <title>HVAC | Code With Shohag</title>
     </head>
-    <body class="bg-slate-600"></body>
+    <body class="">
+        <!-- Header section||Start -->
+        <section
+            class="flex items-center justify-center bg-gradient-to-r from-primary to-secondary text-white min-h-screen">
+            <!-- Puzzle overlay background -->
+            <div class="bg-puzzle-overlay bg-center bg-repeat"></div>
+
+            <!-- navigation bar -->
+            <div class="container mx-auto px-4 py-4 place-content-center">
+                <div
+                    class="w-full bg-[#EBFFF1] rounded-full flex items-center justify-between px-6 py-2">
+                    <!-- Logo -->
+                    <a href="#"><img class="w-24 cursor-pointer" src="./assetes/logo.png" alt=""></a>
+                    <div class="hidden md:flex gap-8 items-center text-black">
+                        <a href="#" class="font-medium text-[16px] hover:text-green-700">About Us</a>
+                        <a href="#" class="font-medium text-[16px] hover:text-green-700">Services</a>
+                        <a href="#" class="font-medium text-[16px] hover:text-green-700">Past Work</a>
+                        <a href="#" class="font-medium text-[16px] hover:text-green-700">Reviews</a>
+                    </div>
+                    <button
+                        class="hidden md:block bg-green-700 rounded-full text-white px-4 py-2 text-sm hover:bg-green-800 transition">Get Free Quote</button>
+
+                    <!-- MobileMenu||BTN -->
+                    <button id="menuBtn" class="md:hidden focus:outline-none">
+                        <img src="./assetes/Icons/bars-solid.svg" class="w-6 h-6" alt="">
+                    </button>
+                </div>
+                <!-- ForMobile||Start -->
+                <div
+                    id="mobile-menu"
+                    class="md:hidden text-black mt-3 items-start gap-2 justify-between bg-transparent p-4 rounded-xl shadow">
+                    <a href="#" class="font-medium block text-right text-[16px] hover:text-white">About Us</a>
+                    <a href="#" class="font-medium block text-right text-[16px] hover:text-white">Services</a>
+                    <a href="#" class="font-medium block text-right text-[16px] hover:text-white">Past Work</a>
+                    <a href="#" class="font-medium block text-right text-[16px] hover:text-white">Reviews</a>
+                </div>
+
+                <div
+                    class="lg:text-left hero-contin flex flex-col-reverse md:flex-row place-content-center">
+                    <div class="text-contain mt-8">
+                        <h1 class="text-white font-bold text-[34px] lg:text-4xl md:mt-[40px] ms-7 ps-2">Reliable HVAC for
+                            <br>Every Season</h1>
+                        <div class="event-part flex  ms-[20px] gap-1 md:mt-[40px] ">
+                            <div class="icon">
+                                <img
+                                    width="30"
+                                    height="30"
+                                    src="./assetes/Icons/certified.svg"
+                                    alt="certificate"/>
+                                <img
+                                    width="30"
+                                    height="30"
+                                    src="./assetes/Icons/alarm.svg"
+                                    alt="alarm-clock--v1"/>
+                                <img width="30" height="30" src="./assetes/Icons/hot.svg" alt="hot-price"/>
+
+                            </div>
+                            <div class="text-part flex flex-col justify-between">
+                                <p class="text-white ">Certified & Experienced Technicians</p>
+                                <p class="text-white">Fast, Reliable Service</p>
+                                <p class="text-white">Transparent, Affordable Pricing</p>
+                            </div>
+                        </div>
+                        <div
+                            class="from-part w-[300px] h-[120px] mt-[20px] ms-[20px] bg-[#EBFFF1] rounded flex flex-col gap-[20px]">
+                            <div class="input-box flex gap-2 mt-5 ms-3">
+                                <input
+                                    type="text"
+                                    placeholder="Name"
+                                    class=" border-[1px] border-green-900 p-2  outline-0 rounded w-[135px] h-[30px] text-black">
+                                <input
+                                    type="tel"
+                                    placeholder="phone"
+                                    class=" border-[1px] border-green-900 p-2 outline-0 rounded w-[135px]  h-[30px] text-black">
+                            </div>
+                            <div class="btn flex gap-2 ms-3">
+                                <select
+                                    name=""
+                                    id=""
+                                    class="border-[1px] border-green-900 outline-0 w-[135px] h-[30px] rounded text-black ">
+                                    <option value="web" class="text-gray-500">select</option>
+                                </select>
+                                <button
+                                    class="border-[1px] border-green-900 outline-0 w-[135px] h-[30px] rounded text-white bg-green-900">
+                                    Submit</button>
+                            </div>
+                        </div>
+                        <p class="text-blue-50 text-center mt-2 md:mt-2 ms-3 md:text-left">Certified Installer</p>
+                        <div class="logo flex gap-3 mt-3 ms-3 justify-center md:justify-normal">
+                            <img src="./assetes/installer1.svg" alt="logo-1">
+                            <img src="./assetes/installer2.svg" alt="logo-2">
+                            <img src="./assetes/installer3.svg" alt="logo-3">
+                        </div>
+                    </div>
+                    <img
+                        src="./assetes/Image/hero content right.png"
+                        alt="hero content"
+                        class="mt-8 h-[80vh] mx-auto md:w-[auto] ">
+                </div>
+            </div>
+        </section>
+        <!-- Header section||End -->
+        <!-- ReviewsSection || Start -->
+        <section class="container mx-auto px-4 my-20 text-center">
+            <h4 class="text-2xl md:text-3xl text-heading mb-10 font-bold">Trusted by Families Like Yours</h4>
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center mt-7">
+                <div
+                    class="transition duration-300 cursor-pointer hover:bg-primary hover:text-white bg-white shadow-lg rounded-3xl p-4 flex flex-col items-center justify-center text-center overflow-hidden space-y-2">
+                    <img
+                        class="w-13 h-13 rounded-full object-cover"
+                        src="./assetes/Image/review1.jpg"
+                        alt="Profile">
+                    <p class="font-bold">Mason Carter</p>
+                    <div class="rating">
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xl font-light text-gray-400">“Super professional service, quick
+                        installation, and everything works perfectly. Highly recommend!”</p>
+                    <img src="./assetes/Icons/google.svg" alt="">
+                    <p>Reviewed on Google</p>
+                </div>
+                <div
+                    class="transition duration-300 cursor-pointer hover:bg-primary hover:text-white bg-white shadow-lg rounded-3xl p-4 flex flex-col items-center justify-center text-center overflow-hidden space-y-2">
+                    <img
+                        class="w-13 h-13 rounded-full object-cover"
+                        src="./assetes/Image/review2.jpg"
+                        alt="Profile">
+                    <p class="font-bold">Chloe Anderson</p>
+                    <div class="rating">
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xl font-light text-gray-400">“Very happy with their work! The
+                        team was efficient and the new system runs great.”</p>
+                    <img src="./assetes/Icons/google.svg" alt="">
+                    <p>Reviewed on Google</p>
+                </div>
+                <div
+                    class="transition duration-300 cursor-pointer hover:bg-primary hover:text-white bg-white shadow-lg rounded-3xl p-4 flex flex-col items-center justify-center text-center overflow-hidden space-y-2">
+                    <img
+                        class="w-13 h-13 rounded-full object-cover"
+                        src="./assetes/Image/review3.jpg"
+                        alt="Profile">
+                    <p class="font-bold">Skylar Bennett</p>
+                    <div class="rating">
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                        <i class="text-yellow-300 w-4 h-4 fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xl font-light text-gray-400">“Great experience from start to finish. Honest pricing and top-notch service!”</p>
+                    <img src="./assetes/Icons/google.svg" alt="">
+                    <p>Reviewed on Google</p>
+                </div>
+            </div>
+            <button
+                class="mt-8 bg-green-900 text-white text-sm  w-[100px] h-[36px] rounded border-2 border-transparent hover:bg-white hover:text-green-900 hover:border-green-900 transition-all duration-300 cursor-pointer">View more</button>
+        </section>
+
+        <section class="container pb-12 mx-auto md:pb-20 max-w-3xl my-20">
+            <div class="py-4 text-center md:py-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-heading mb-10">
+                    Your Trusted HVAC Experts
+                </h2>
+            </div>
+            <div class="grid gap-y-6">
+                <div class="container gap-2 space-y-1 md:columns-1 lg:columns-2">
+                    <div class="flex flex-col items-center text-center">
+                        <img
+                            src="./assetes/Certified1.svg"
+                            alt="ISO 9001 Certified"
+                            class="w-16 h-16 mb-4">
+                        <h3 class="font-medium text-sm text-heading">ISO 9001 Certified</h3>
+                        <p class="text-xs text-paragraph">Quality Management for HVAC Excellence</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <img
+                            src="./assetes/Certified2.svg"
+                            alt="ISO 9001 Certified"
+                            class="w-16 h-16 mb-4">
+                        <h3 class="font-medium text-sm text-heading">ISO 14001 Certification</h3>
+                        <p class="text-xs text-paragraph">Eco-Friendly HVAC Solutions</p>
+                    </div>
+                </div>
+                <div class="container gap-1 space-y-8 md:columns-2 lg:columns-3">
+                    <div class="container flex flex-col items-center text-center">
+                        <img
+                            src="./assetes/CertifiedB1.svg"
+                            alt="ISO 9001 Certified"
+                            class="w-16 h-16 mb-4">
+                        <h3 class="font-medium text-sm text-heading">EPA Certified</h3>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <img
+                            src="./assetes/CertifiedB2.svg"
+                            alt="ISO 9001 Certified"
+                            class="w-16 h-16 mb-4">
+                        <h3 class="font-medium text-sm text-heading">BBB Accredited</h3>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                        <img
+                            src="./assetes/CertifiedB3.svg"
+                            alt="ISO 9001 Certified"
+                            class="w-16 h-16 mb-4">
+                        <h3 class="font-medium text-sm text-heading">NATE Certified</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#EBFFF1] mx-auto px-4 py-10 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-heading mb-10">
+                Your Trusted HVAC Experts
+            </h2>
+            <div class="container gap-8 space-y-8 md:columns-2 lg:columns-3">
+                <div
+                    class="py-8 transition duration-300 cursor-pointer bg-white p-8 rounded-tr-2xl rounded-bl-2xl hover:shadow-md flex flex-col justify-center items-center">
+                    <img class="my-3" src="./assetes/Icons/clock.svg" alt="">
+                    <div>
+                        <p class="font-bold text-lg mb-2">24/7 Emergency Services</p>
+                        <p>Fast and reliable emergency HVAC services available 24/7.</p>
+                    </div>
+                </div>
+                <div
+                    class="py-8 transition duration-300 cursor-pointer bg-white p-8 rounded-tr-2xl rounded-bl-2xl hover:shadow-md flex flex-col justify-center items-center">
+                    <img class="my-3" src="./assetes/Icons/labor.svg" alt="">
+                    <div>
+                        <p class="font-bold text-lg mb-2">24/7 Emergency Services</p>
+                        <p>Fast and reliable emergency HVAC services available 24/7.</p>
+                    </div>
+                </div>
+                <div
+                    class="py-8 transition duration-300 cursor-pointer bg-white p-8 rounded-tr-2xl rounded-bl-2xl hover:shadow-md flex flex-col justify-center items-center">
+                    <img class="my-3" src="./assetes/Icons/dollar.svg" alt="">
+                    <div>
+                        <p class="font-bold text-lg mb-2">24/7 Emergency Services</p>
+                        <p>Fast and reliable emergency HVAC services available 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-12">
+            <div class="container mx-auto px-4">
+
+                <div class="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-8">
+                    <div class="">
+                        <div class="text-center lg:text-left h-[318px] mb-12">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-4">Past Work That Speaks for Itself</h2>
+                            <p class="text-gray-600 max-w-3xl mx-auto">
+                                Explore some of the outstanding HVAC projects we’ve proudly completed. Every
+                                image reflects our unwavering commitment to quality, reliability, and expert
+                                craftsmanship — from flawless installations to seamless maintenance. These are
+                                just a few examples of the exceptional results we deliver for homeowners like
+                                you.
+                            </p>
+                            <button
+                                class="border-[1px] rounded-lg p-2 items-center justify-center text-white bg-green-900 mt-32">
+                                <span>Explore Our Work</span></button>
+                        </div>
+
+                        <div class="bg-primary rounded-lg h-auto shadow-md mt-[4.5rem] overflow-hidden">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Efficient Home Heating Upgrade</h3>
+                                <p class="">High-efficiency furnace system installation.</p>
+                            </div>
+                            <div class="h-[14rem] bg-primary p-3">
+                                <img
+                                    class="object-center rounded-xl bottom-1.5 "
+                                    src="./assetes/Image/work2.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                            <div class="p-6 text-white bg-primary">
+                                <h3 class="text-xl font-semibold mb-2">Efficient Home Heating Upgrade.</h3>
+                                <p class="">Installed a high-efficiency furnace system, reducing energy costs
+                                    and improving comfort for the homeowners.</p>
+                            </div>
+                            <div class="h-[14rem] bg-primary p-3">
+                                <img
+                                    class="object-center rounded-xl bottom-1.5 "
+                                    src="./assetes/Image/work1.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                            <div class="p-6 text-white bg-primary">
+                                <h3 class="text-xl font-semibold mb-2">Emergency AC Repair</h3>
+                                <p class="">Rapid response to restore cooling.</p>
+                            </div>
+                            <div class="h-[14rem] bg-primary p-3">
+                                <img
+                                    class="object-center rounded-xl bottom-1.5 "
+                                    src="./assetes/Image/work3.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="container mx-auto  px-4 ">
+
+                <h3 class="text-4xl font-medium text-center">Save Big on Your Next HVAC Project</h3>
+                <div class="grid grid-cols-3 gap-6 px-4 mt-12">
+                    <div class="col-span-3 md:col-span-2 relative h-[382px] rounded-[32px]">
+                        <img
+                            src="./assetes/Image/project1.jpg"
+                            alt="offer-image"
+                            class="w-full h-full object-cover rounded-xl">
+
+                        <!-- Overlay -->
+                        <div class="absolute inset-0 bg-primary/60 rounded-xl flex items-end">
+                            <div class="text-white px-4 pb-6 w-full">
+                                <button
+                                    class="bg-white text-green-900 text-sm w-[150px] h-[36px] rounded border-2 border-transparent mb-3 hover:bg-white hover:text-green-900 hover:border-green-900 transition-all duration-300">
+                                    Hot Offer
+                                </button>
+                                <h2 class="text-2xl font-medium">Get $500 OFF New HVAC System Installation!</h2>
+                                <p class="text-sm mt-1">Upgrade your comfort and save big! Get an instant $500
+                                    OFF when you install a brand-new, energy-efficient HVAC system — limited time
+                                    only!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        src="./assetes/Image/project2.jpg"
+                        alt="offer-2"
+                        class="w-full md:col-span-1 col-span-3 max-w-xl h-[382px] object-cover rounded-xl mt-4 md:mt-0">
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services section|| Start -->
+        <section class="container max-w-6xl mx-auto my-[8rem]">
+            <div class="mb-10">
+                <h3 class="text-4xl font-medium text-center">Our HVAC Services</h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="rounded-lg overflow-hidden">
+                    <img
+                        src="./assetes/Image/service1.jpg"
+                        alt="Team Member 1"
+                        class="w-full h-48 object-cover rounded-lg">
+                    <div class="py-10">
+                        <h2 class="text-xl font-semibold">Air Conditioner Installation</h2>
+                        <p class="text-gray-600">Stay cool all summer with fast, professional AC installations built to last.</p>
+                        <div class="flex items-center mt-4 space-x-3">
+                            <button
+                                class="cursor-pointer hover:bg-green-700 transition-animation border-[1px] rounded-lg p-2 items-center text-white bg-green-900">
+                                <span>Explore Our Work</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img
+                        src="./assetes/Image/service2.jpg"
+                        alt="Team Member 1"
+                        class="w-full h-48 object-cover rounded-lg">
+                    <div class="py-10">
+                        <h2 class="text-xl font-semibold">Heating System Repair</h2>
+                        <p class="text-gray-600">Keep your home warm and safe with expert repair services for any heating system.</p>
+                        <div class="flex items-center mt-4 space-x-3">
+                            <button
+                                class="cursor-pointer hover:bg-green-700 transition-animation border-[1px] rounded-lg p-2 items-center text-white bg-green-900">
+                                <span>Explore Our Work</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img
+                        src="./assetes/Image/service3.jpg"
+                        alt="Team Member 1"
+                        class="w-full h-48 object-cover rounded-lg">
+                    <div class="py-10">
+                        <h2 class="text-xl font-semibold">Indoor Air Quality Solutions</h2>
+                        <p class="text-gray-600">Breathe cleaner, healthier air with advanced filtration and ventilation systems.</p>
+                        <div class="flex items-center mt-4 space-x-3">
+                            <button
+                                class="cursor-pointer hover:bg-green-700 transition-animation border-[1px] rounded-lg p-2 items-center text-white bg-green-900">
+                                <span>Explore Our Work</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section|| End -->
+
+        <!-- BehindThwWork section|| Start -->
+        <section class="container max-w-6xl mx-auto my-[8rem]">
+            <div class="mb-10">
+                <h3 class="text-4xl font-medium text-center">Meet the People Behind the Work</h3>
+            </div>
+            <div
+                class="grid grid-cols-1 place-items-center sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="col-span-1 lg:col-span-2 sm:col-span-3 md:col-span-3">
+                    <img
+                        class="max-h-72 rounded-xl"
+                        src="./assetes/Image/peapleBehind.jpg"
+                        alt="Example Image"/>
+                </div>
+                <div class="col-span-1">
+                    <div class="border-2 border-gray-500 rounded-xl p-5">
+                        <p class="text-gray-600 text-sm leading-6">“My mission is simple — to give every
+                            homeowner reliable, efficient comfort they can count on, every day.”</p>
+                        <h2 class="text-xl font-semibold mt-6">James Carter</h2>
+                        <p class="text-gray-600">Founder & Senior HVAC Specialist</p>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="border-2 border-gray-500 rounded-xl p-5">
+                        <p class="text-gray-600 text-sm leading-6">“My mission is simple — to give every
+                            homeowner reliable, efficient comfort they can count on, every day.”</p>
+                        <h2 class="text-xl font-semibold mt-6">James Carter</h2>
+                        <p class="text-gray-600">Founder & Senior HVAC Specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BehindThwWork section|| End -->
+
+        <!-- BehindTheWork section|| Start -->
+        <section class="container max-w-6xl mx-auto m-auto">
+            <div class="">
+                <h3 class="text-4xl font-medium text-center">HVAC Insights</h3>
+            </div>
+            <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                    <!-- card-1 -->
+                    <div class="rounded-xl overflow-hidden shadow-lg flex flex-col">
+                        <div class="relative">
+                            <a href="#">
+                                <img
+                                    class="w-full"
+                                    src="./assetes/Image/hvac1.jpg"
+                                    alt="Sunset in the mountains">
+                                <div
+                                    class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-500 opacity-25"></div>
+                            </a>
+                        </div>
+                        <div class="px-6 py-4 mb-auto">
+                            <p class="text-gray-500 text-sm">
+                                25 Apr 2025
+                            </p>
+                            <a
+                                href="#"
+                                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">5 Signs Your AC Needs Maintenance</a>
+                        </div>
+                        <div
+                            class="px-6 py-3 flex flex-row items-center justify-between border-t-[2px] border-gray-500">
+                            <span
+                                href="#"
+                                class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+                                <a href="#">
+                                    <span class="ml-1">Read More</span></a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="rounded-xl overflow-hidden shadow-lg flex flex-col">
+                        <div class="relative">
+                            <a href="#">
+                                <img
+                                    class="w-full"
+                                    src="./assetes/Image/hvac2.jpg"
+                                    alt="Sunset in the mountains">
+                                <div
+                                    class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-500 opacity-25"></div>
+                            </a>
+                        </div>
+                        <div class="px-6 py-4 mb-auto">
+                            <p class="text-gray-500 text-sm">
+                                22 Apr 2025
+                            </p>
+                            <a
+                                href="#"
+                                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">How to Save on Heating Bills This Winter</a>
+                        </div>
+                        <div
+                            class="px-6 py-3 flex flex-row items-center justify-between border-t-[2px] border-gray-500">
+                            <span
+                                href="#"
+                                class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+                                <a href="#">
+                                    <span class="ml-1">Read More</span></a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="rounded-xl overflow-hidden shadow-lg flex flex-col">
+                        <div class="relative">
+                            <a href="#">
+                                <img
+                                    class="w-full"
+                                    src="./assetes/Image/hvac3.jpg"
+                                    alt="Sunset in the mountains">
+                                <div
+                                    class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-500 opacity-25"></div>
+                            </a>
+                        </div>
+                        <div class="px-6 py-4 mb-auto">
+                            <p class="text-gray-500 text-sm">
+                                22 Apr 2025
+                            </p>
+                            <a
+                                href="#"
+                                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">The Best Thermostat Settings for Comfort & Efficiency</a>
+                        </div>
+                        <div
+                            class="px-6 py-3 flex flex-row items-center justify-between border-t-[2px] border-gray-500">
+                            <span
+                                href="#"
+                                class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+                                <a href="#">
+                                    <span class="ml-1">Read More</span></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Centered button below the grid -->
+                <div class="text-center mt-10">
+                    <button
+                        class="border-[1px] rounded-lg px-6 py-3 text-white bg-green-900 hover:bg-green-800 transition duration-300">
+                        <span>Explore All Articles</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- BehindTheWork section|| End -->
+
+        <!-- Areas We Serve section || Start -->
+        <section class="container max-w-6xl mx-auto my-[8rem]">
+            <div class="text-center">
+                <h3 class="text-4xl font-medium">Areas We Serve</h3>
+            </div>
+            <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+                <div
+                    class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Los Angeles</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">San Diego</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">San Jose</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">San Francisco</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Sacramento</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Phoenix</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Las Vegas</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Denver</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Kansas City</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Charlotte</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">San Antonio</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Atlanta</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Jacksonville</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Indianapolis</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Raleigh</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Chicago</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Tampa</span>
+                    </div>
+                    <!-- Location Item 1 -->
+                    <div
+                        class="group cursor-pointer flex border-2 overflow-hidden border-primary rounded-3xl items-center justify-center p-2 hover:bg-primary hover:border-green-600 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-green-600 mr-3 group-hover:text-white"></i>
+                        <span class="text-sm group-hover:text-white">Orlando</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Areas We Serve section || End -->
+
+        <!-- Footer section|| Start -->
+        <footer class="bg-primary text-white pt-12 mt-12 pb-8">
+            <div class="container mx-auto px-4">
+                <!-- Search Bar Section (unchanged) -->
+                <div class="your-cta-wrapper mt-6">
+                    <div class="bg-white px-4 py-2 rounded-xl shadow-md max-w-[100%] mx-auto mb-10">
+                        <form class="flex flex-col sm:flex-row gap-4">
+                            <div class="relative flex-grow">
+                                <input
+                                    type="text"
+                                    placeholder="Let us help you choose the perfect system for your home."
+                                    class="border-none active:border-none text-gray-500 w-full py-3 px-0 pr-12">
+                            </div>
+                            <button
+                                type="submit"
+                                class="cursor-pointer bg-primary hover:bg-primary-dark text-white font-medium rounded-xl whitespace-nowrap px-6 hover:bg-green-800 transition duration-300">
+                                Free HVAC Estimate
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Footer Content -->
+                <div class="md:grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-8 mb-8 my-6">
+                    <!-- Company Info -->
+                    <div class="text-center md:text-left space-y-4 col-span-2 my-6 md:my-0">
+                        <div class="flex cursor-pointer items-center justify-center md:justify-start">
+                            <img src="./assetes/logoWhite.svg" alt="">
+                        </div>
+                        <p class="text-gray-400 text-center md:text-left">Building innovative solutions for the modern world.</p>
+                        <div class="flex space-x-4 justify-center md:justify-start">
+                            <a href="#" class="text-white">
+                                <span class="sr-only">Facebook</span>
+                                <i class="fa-brands fa-square-facebook text-2xl"></i>
+                            </a>
+                            <a href="#" class="text-white">
+                                <span class="sr-only">Twitter</span>
+                                <i class="fa-brands fa-square-twitter text-2xl"></i>
+                            </a>
+                            <a href="#" class="text-white">
+                                <span class="sr-only">LinkedIn</span>
+                                <i class="fa-brands fa-linkedin text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="my-6 md:my-0 text-center md:text-left">
+                        <h3 class="text-lg font-semibold">Quick Links</h3>
+                        <ul class="space-y-2 mt-2">
+                            <li>
+                                <a href="#" class="text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="my-6 md:my-0 text-center md:text-left">
+                        <h3 class="text-lg font-semibold">Contact Us</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start mt-1 justify-center md:justify-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-phone text-lg"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <a
+                                        href="phone:(555) 123-4567"
+                                        class="text-white hover:text-blue-400 transition">(555) 123-4567</a>
+                                </div>
+                            </li>
+                            <li class="flex items-start mt-1 justify-center md:justify-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-envelope text-lg"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <a href="mail:(555) 123-4567" class="text-white hover:text-blue-400 transition">mail.coolquest.com</a>
+                                </div>
+                            </li>
+                            <li class="flex items-start mt-1 justify-center md:justify-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-location-dot text-lg"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <a
+                                        href="phone:(555) 123-4567"
+                                        class="text-white hover:text-blue-400 transition">1234 Maplewood Drive, Houston, TX 77002, United States.</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="border-t pt-6">
+                    <p class="text-sm mb-4 md:mb-0 text-center">© Code with Shohag | HVAC.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer section|| End -->
+
+        <script src="./Javascript/script.js"></script>
+    </body>
 </html>
