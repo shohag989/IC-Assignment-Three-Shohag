@@ -49,10 +49,9 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/shohag989/AssignmeThreeByShohag.git
-
+git clone https://github.com/shohag989/IC-Assignment-Three-Shohag.git
 # Navigate to the project directory
-cd AssignmeThreeByShohag
+cd IC-Assignment-Three-Shohag
 
 # Install dependencies
 npm install
